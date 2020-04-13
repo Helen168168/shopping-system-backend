@@ -6,11 +6,17 @@
     "start": "node ./bin/start"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.4",
+    "chalk": "^4.0.0",
+    "cookie-parser": "^1.4.5",
+    "crypto": "^1.0.1",
     "debug": "~2.6.9",
+    "ejs": "^3.0.2",
     "express": "~4.16.1",
-    "http-errors": "~1.6.3",
+    "formidable": "^1.2.2",
+    "http-errors": "^1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "mongoose": "^5.9.7",
+    "morgan": "~1.9.1",
+    "node-fetch": "^2.6.0"
   }
 }
